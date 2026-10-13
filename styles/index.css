@@ -74,3 +74,501 @@ input:focus-visible {
   background-color: #3658e8;
   opacity: 1;
 }
+
+.hero {
+  min-height: 740px;
+  background: url("../images/mountain.png") center/cover no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+}
+.hero p {
+  font-size: 22px;
+  letter-spacing: 6px;
+  margin-bottom: 45px;
+}
+.hero form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 650px;
+  background-color: #ffffff;
+  padding: 2px;
+}
+.hero input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 0;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  color: #333333;
+  font-size: 14px;
+}
+.hero input::-webkit-input-placeholder {
+  color: #777777;
+  letter-spacing: 2px;
+}
+.hero input::-moz-placeholder {
+  color: #777777;
+  letter-spacing: 2px;
+}
+.hero input:-ms-input-placeholder {
+  color: #777777;
+  letter-spacing: 2px;
+}
+.hero input::-ms-input-placeholder {
+  color: #777777;
+  letter-spacing: 2px;
+}
+.hero input::placeholder {
+  color: #777777;
+  letter-spacing: 2px;
+}
+.hero input:focus-visible {
+  outline-color: #5474fd;
+  outline-offset: -3px;
+}
+.hero button {
+  background-color: #5474fd;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 18px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 12px;
+}
+
+.scroll-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  margin-top: 100px;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.navbar {
+  background-color: #5474fd;
+}
+
+.nav-container {
+  width: 90%;
+  max-width: 1100px;
+  min-height: 80px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 30px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li a {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.why-choose {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.3))), url("../images/castle.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../images/castle.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+
+.choose-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 70px;
+}
+
+.choose-text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 0;
+}
+.choose-text h2 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.choose-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  color: #dddddd;
+  margin-bottom: 25px;
+}
+
+.choose-images {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+.choose-images img {
+  width: 75%;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.choose-images img:last-child {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.services {
+  background-color: #333333;
+  padding: 85px 0;
+}
+
+.services ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.services li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 0;
+  text-align: center;
+  position: relative;
+}
+
+.services a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  font-size: 28px;
+}
+
+.services i {
+  font-size: 48px;
+  color: #5474fd;
+}
+
+.services li:nth-child(2) i {
+  color: #ff6363;
+}
+
+.services li:nth-child(3) i {
+  color: #00a2ff;
+}
+
+.destination {
+  min-height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.destination-one {
+  background-image: url("../images/house.png");
+}
+
+.destination-two {
+  background-image: url("../images/rocks.png");
+}
+
+.destination-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.destination-two .destination-layout {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.destination-card {
+  width: 100%;
+  max-width: 540px;
+  padding: 45px 30px;
+  background-color: rgba(35, 35, 35, 0.9);
+}
+.destination-card p {
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 1px;
+}
+.destination-card h2 {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 25px 0;
+}
+
+.testimonials {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.2))), url("../images/hiking.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("../images/hiking.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px 0;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.testimonial-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: #333333;
+}
+
+.testimonial-card img {
+  width: 40%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
+.testimonial-text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 0;
+  padding: 45px;
+}
+.testimonial-text h3 {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.testimonial-text blockquote {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #dddddd;
+}
+.testimonial-text i {
+  color: #5474fd;
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+footer {
+  background-color: #232323;
+  text-align: center;
+  padding: 90px 20px 50px;
+}
+footer h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+footer p {
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 25px;
+  list-style: none;
+  padding: 0;
+  margin: 30px 0 0;
+}
+.social-links a {
+  font-size: 18px;
+}
+.social-links a:hover, .social-links a:focus-visible {
+  color: #5474fd;
+  opacity: 1;
+}
+
+@media (max-width: 900px) {
+  .nav-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 25px 0;
+  }
+  .navbar ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .choose-layout {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .choose-text,
+  .choose-images {
+    width: 100%;
+  }
+  .services li::after {
+    display: none;
+  }
+  .testimonial-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .testimonial-card img {
+    width: 100%;
+    max-height: 350px;
+  }
+}
+@media (max-width: 360px) {
+  .hero h1 {
+    font-size: 28px;
+    letter-spacing: 3px;
+  }
+  .hero input {
+    font-size: 12px;
+    padding: 16px 8px;
+  }
+  .hero input::-webkit-input-placeholder {
+    letter-spacing: 0.5px;
+  }
+  .hero input::-moz-placeholder {
+    letter-spacing: 0.5px;
+  }
+  .hero input:-ms-input-placeholder {
+    letter-spacing: 0.5px;
+  }
+  .hero input::-ms-input-placeholder {
+    letter-spacing: 0.5px;
+  }
+  .hero input::placeholder {
+    letter-spacing: 0.5px;
+  }
+  .destination-card p,
+  .testimonial-text blockquote {
+    font-size: 14px;
+  }
+  .social-links {
+    gap: 18px;
+  }
+}
